@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/getting" 
+    android:padding="20dp">
+    <ScrollView  android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+		 			android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:id="@+id/tablelayout1"
+        android:weightSum="4" >"
+
+       <TableRow> 
+            <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="User_ID"
+          android:textColor="#008080"
+        android:layout_weight="1" />
+             <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Names"
+          android:textColor="#008080"
+        android:layout_weight="1" />
+             
+               <TextView
+                
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Credit (in Rs)"
+                android:layout_weight="1"
+                  android:textColor="#008080"  />
+                 <TextView
+                
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Money(in Rs)"
+                android:layout_weight="1"
+                  android:textColor="#008080"  />
+    </TableRow>
+        
+ </TableLayout>
+      
+        <TextView
+            android:id="@+id/tvSQLinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="get info from db" 
+              android:textColor="#008080"/>
+</LinearLayout>
+   
+</ScrollView>
+
+
+</LinearLayout>

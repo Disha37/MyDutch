@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/getting" 
+    android:padding="20dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:id="@+id/tablelayout1"
+        android:weightSum="20" >"
+
+       <TableRow> 
+            <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="No."
+          android:textColor="#008080"
+        android:layout_weight="3" />
+             <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text=" Expenditure "
+          android:textColor="#008080"
+        android:layout_weight="17" />
+             
+              
+    </TableRow>
+        
+ </TableLayout>
+      
+        <TextView
+            android:id="@+id/tvSQLinfo2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="get info from db" 
+              android:textColor="#008080"/>
+</LinearLayout>
